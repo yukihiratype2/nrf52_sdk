@@ -17,6 +17,12 @@
       "configFiles": [
         "interface/cmsis-dap.cfg",
         "target/nrf52.cfg"
+      ],
+      "postLaunchCommands": [
+        "monitor rtt server start 8765 0",
+      // should span the *right* part of RAM
+        "monitor rtt setup 0x20002e7c 0x78 \"SEGGER RTT\"",
+        "monitor rtt start",
       ]
     }
   ]

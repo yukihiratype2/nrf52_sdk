@@ -1,5 +1,6 @@
 {
   "files.associations": {
-    "nrf_log_default_backends.h": "c"
+    "nrf_log_default_backends.h": "c",
+    "nrf_log.h": "c"
   }
 }

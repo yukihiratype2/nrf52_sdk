@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "APP_TIMER_V2",
+                "APP_TIMER_V2_RTC1_ENABLED",
+                "BOARD_CUSTOM",
+                "NRF52840_MDK",
+                "CONFIG_GPIO_AS_PINRESET",
+                "FLOAT_ABI_HARD",
+                "NRF52840_XXAA",
+                "NRF_SD_BLE_API_VERSION=7",
+                "S140",
+                "SOFTDEVICE_PRESEN",
+                "NRF_SDH_BLE_ENABLED=1"
+            ],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-arm"
+        }
+    ],
+    "version": 4
+}
